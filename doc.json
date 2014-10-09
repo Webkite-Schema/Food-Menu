@@ -1,0 +1,339 @@
+{
+  "facets": [
+    {
+      "name": "Item Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Description",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Price",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Meal",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true,
+        "groupable": true
+      }
+    },
+    {
+      "name": "Dish Type",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Diet",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Calories",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Total Fat (g)",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Cholesterol (mg)",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "תפריט אוכל",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "Item Name": "שם פריט",
+      "Description": "תיאור",
+      "Price": "מחיר",
+      "Meal": "ארוחה",
+      "Dish Type": "סוג מנה",
+      "Diet": "דיאטה",
+      "Calories": "קלוריות",
+      "Total Fat (g)": "סה\"כ שומן (גרם)",
+      "Cholesterol (mg)": "כולסטרול (מ\"ג)"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "菜单",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "Item Name": "菜名",
+      "Description": "描述",
+      "Price": "价格",
+      "Meal": "正餐",
+      "Dish Type": "种类",
+      "Diet": "素食",
+      "Calories": "卡路里",
+      "Total Fat (g)": "脂肪总量（克）",
+      "Cholesterol (mg)": "胆固醇（毫克）"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "Menú",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "Item Name": "Nombre de artículo",
+      "Description": "Descripción",
+      "Price": "Precio",
+      "Meal": "Comida",
+      "Dish Type": "Tipo de comida",
+      "Diet": "Dieta",
+      "Calories": "Calorías",
+      "Total Fat (g)": "Grasa (g)",
+      "Cholesterol (mg)": "Colesterol (mg)"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "Menú",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "Item Name": "Nome de item",
+      "Description": "Descrição",
+      "Price": "Preço",
+      "Meal": "Refeição",
+      "Dish Type": "Tipo de comida",
+      "Diet": "Dieta",
+      "Calories": "Calórias",
+      "Total Fat (g)": "Gordura (g)",
+      "Cholesterol (mg)": "Colesterol (mg)"
+    },
+    "German": {
+      "_metadata": {
+        "display_name": "Speisekarte",
+        "display_language": "Deutsch",
+        "phrases": {
+          "Sort": "Art",
+          "Filter": "Filter",
+          "More": "Mehr",
+          "Less": "Weniger",
+          "Sorry, no results": "Sorry, keine Ergebnisse",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "Und",
+          "or": "Oder",
+          "Details": "Details"
+        }
+      },
+      "Item Name": "Name des Elements",
+      "Description": "Beschreibung",
+      "Price": "Preis",
+      "Meal": "Mahlzeit",
+      "Dish Type": "Essensart",
+      "Diet": "Diät",
+      "Calories": "Kalorien",
+      "Total Fat (g)": "Fett (g)",
+      "Cholesterol (mg)": "Cholesterin (mg)"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "La carte/le menu",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "Item Name": "Numéro d'identification",
+      "Description": "Description",
+      "Price": "Prix",
+      "Meal": "Repas",
+      "Dish Type": "Mets",
+      "Diet": "Diététique",
+      "Calories": "Calories",
+      "Total Fat (g)": "Grasses totales (g)",
+      "Cholesterol (mg)": "Cholésterol (mg)"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Меню",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Item Name": "Наименование",
+      "Description": "Описание",
+      "Price": "Цена",
+      "Meal": "Название",
+      "Dish Type": "Блюдо",
+      "Diet": "Диета",
+      "Calories": "Калории",
+      "Total Fat (g)": "Общее содержание жира (г)",
+      "Cholesterol (mg)": "Холестерин (мг)"
+    },
+    "Indonesian": {
+      "_metadata": {
+        "display_name": "Menu makanan",
+        "display_language": "Bahasa Indonesia",
+        "phrases": {
+          "Sort": "Jenis",
+          "Filter": "Filter",
+          "More": "Lebih",
+          "Less": "Kurang",
+          "Sorry, no results": "Maaf, tidak ada hasil",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "dan",
+          "or": "atau",
+          "Details": "Detail"
+        }
+      },
+      "Item Name": "Nama item",
+      "Description": "Uraian",
+      "Price": "Harga",
+      "Meal": "Makanan",
+      "Dish Type": "Jenis makanan",
+      "Diet": "Diet",
+      "Calories": "Kalori",
+      "Total Fat (g)": "Lemak total (g)",
+      "Cholesterol (mg)": "Kolesterol (mg)"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "Menukaart",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "Item Name": "Naam van het item",
+      "Description": "Omschrijving",
+      "Price": "Prijs",
+      "Meal": "Maaltijd",
+      "Dish Type": "Gerecht",
+      "Diet": "Dieet",
+      "Calories": "Calorieën",
+      "Total Fat (g)": "Totaal Vet (g)",
+      "Cholesterol (mg)": "Cholesterol (mg)"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "Yemek Menüsü",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "Item Name": "Yemek İsmi",
+      "Description": "Tanım",
+      "Price": "Fiyat",
+      "Meal": "Öğün",
+      "Dish Type": "Yemek Türü",
+      "Diet": "Beslenme Biçimi",
+      "Calories": "Kalori",
+      "Total Fat (g)": "Toplam Yağ (g)",
+      "Cholesterol (mg)": "Kolesterol (mg)"
+    }
+  }
+}
